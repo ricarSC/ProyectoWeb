@@ -1,0 +1,247 @@
+[
+  {
+    "id": "vainilla-clasica",
+    "nombre": "Vainilla Clásica",
+    "descripcion": "Helado artesanal con vainas de Madagascar.",
+    "precioBase": 18.0,
+    "categorias": [
+      "clasicos"
+    ],
+    "tags": [
+      "sin_gluten"
+    ],
+    "img": "img/helados/vainilla.png",
+    "tamaños": [
+      {
+        "label": "Cono",
+        "extra": 0
+      },
+      {
+        "label": "Vaso 8oz",
+        "extra": 6
+      },
+      {
+        "label": "1 Litro",
+        "extra": 30
+      }
+    ],
+    "toppings": [
+      {
+        "label": "Chispas de chocolate",
+        "precio": 3
+      },
+      {
+        "label": "Nueces",
+        "precio": 4
+      },
+      {
+        "label": "Sirope de caramelo",
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "chocolate-belga",
+    "nombre": "Chocolate Belga",
+    "descripcion": "Cacao 70% con textura cremosa.",
+    "precioBase": 20.0,
+    "categorias": [
+      "clasicos"
+    ],
+    "tags": [
+      "veg_option"
+    ],
+    "img": "img/helados/chocolate.png",
+    "tamaños": [
+      {
+        "label": "Cono",
+        "extra": 0
+      },
+      {
+        "label": "Vaso 8oz",
+        "extra": 6
+      },
+      {
+        "label": "1 Litro",
+        "extra": 32
+      }
+    ],
+    "toppings": [
+      {
+        "label": "Almendras",
+        "precio": 4
+      },
+      {
+        "label": "Fudge",
+        "precio": 3
+      },
+      {
+        "label": "Galleta triturada",
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "fresa-natural",
+    "nombre": "Fresa Natural",
+    "descripcion": "Hecho con fresas frescas, sabor brillante.",
+    "precioBase": 19.0,
+    "categorias": [
+      "frutales"
+    ],
+    "tags": [
+      "sin_gluten"
+    ],
+    "img": "img/helados/fresa.png",
+    "tamaños": [
+      {
+        "label": "Cono",
+        "extra": 0
+      },
+      {
+        "label": "Vaso 8oz",
+        "extra": 5
+      },
+      {
+        "label": "1 Litro",
+        "extra": 28
+      }
+    ],
+    "toppings": [
+      {
+        "label": "Frutillas",
+        "precio": 3
+      },
+      {
+        "label": "Merengue",
+        "precio": 3
+      },
+      {
+        "label": "Sirope de fresa",
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "pistacho-siciliano",
+    "nombre": "Pistacho Siciliano",
+    "descripcion": "Pistacho 100% puro, tostado suave.",
+    "precioBase": 26.0,
+    "categorias": [
+      "premium"
+    ],
+    "tags": [
+      "sin_gluten"
+    ],
+    "img": "img/helados/pistacho.png",
+    "tamaños": [
+      {
+        "label": "Cono",
+        "extra": 0
+      },
+      {
+        "label": "Vaso 8oz",
+        "extra": 8
+      },
+      {
+        "label": "1 Litro",
+        "extra": 36
+      }
+    ],
+    "toppings": [
+      {
+        "label": "Pistacho extra",
+        "precio": 5
+      },
+      {
+        "label": "Chocolate blanco",
+        "precio": 3
+      },
+      {
+        "label": "Crocante",
+        "precio": 3
+      }
+    ]
+  },
+  {
+    "id": "dulce-de-leche",
+    "nombre": "Dulce de Leche",
+    "descripcion": "Cintas de dulce de leche artesanal.",
+    "precioBase": 21.0,
+    "categorias": [
+      "latinos"
+    ],
+    "tags": [],
+    "img": "img/helados/ddl.png",
+    "tamaños": [
+      {
+        "label": "Cono",
+        "extra": 0
+      },
+      {
+        "label": "Vaso 8oz",
+        "extra": 6
+      },
+      {
+        "label": "1 Litro",
+        "extra": 32
+      }
+    ],
+    "toppings": [
+      {
+        "label": "Maní",
+        "precio": 3
+      },
+      {
+        "label": "Salsa de dulce de leche",
+        "precio": 3
+      },
+      {
+        "label": "Galleta María",
+        "precio": 2
+      }
+    ]
+  },
+  {
+    "id": "limon-granizado",
+    "nombre": "Limón Granizado",
+    "descripcion": "Refrescante, cítrico, perfecto para el calor.",
+    "precioBase": 17.0,
+    "categorias": [
+      "frutales",
+      "veganos"
+    ],
+    "tags": [
+      "vegano"
+    ],
+    "img": "img/helados/limon.png",
+    "tamaños": [
+      {
+        "label": "Cono",
+        "extra": 0
+      },
+      {
+        "label": "Vaso 8oz",
+        "extra": 5
+      },
+      {
+        "label": "1 Litro",
+        "extra": 26
+      }
+    ],
+    "toppings": [
+      {
+        "label": "Ralladura de limón",
+        "precio": 2
+      },
+      {
+        "label": "Menta",
+        "precio": 2
+      },
+      {
+        "label": "Chia",
+        "precio": 2
+      }
+    ]
+  }
+]

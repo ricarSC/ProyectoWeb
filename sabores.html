@@ -1,0 +1,40 @@
+
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Sabores | Heladería</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<div id="navbar"></div>
+<section class="section">
+  <header class="hero card">
+    <h1>Sabores</h1>
+    <p class="muted">Elegí tu helado favorito, personalizá tamaño y toppings.</p>
+  </header>
+
+  <div class="controls">
+    <input type="search" placeholder="Buscar sabor..." aria-label="Buscar sabor" data-search>
+    <label class="chip"><input type="checkbox" value="clasicos" data-filter> Clásicos</label>
+    <label class="chip"><input type="checkbox" value="frutales" data-filter> Frutales</label>
+    <label class="chip"><input type="checkbox" value="premium" data-filter> Premium</label>
+    <label class="chip"><input type="checkbox" value="veganos" data-filter> Veganos</label>
+  </div>
+
+  <div class="grid grid-3" data-catalog></div>
+</section>
+
+<!-- Modal de configuración producto -->
+<div class="modal" id="configModal" role="dialog" aria-modal="true">
+  <div class="modal-content">
+    <button class="modal-close" data-close>&times;</button>
+    <div class="body"></div>
+  </div>
+</div>
+
+<!-- Social + auth + backtotop -->
+<button id="backToTop" class="back-to-top" aria-label="Volver arriba">▲</button>
+<div id="authModals" style="display:none"></div>
+<div class="social-bubbles" aria-label="Redes sociales"></div>
+
+<script src="js/main.js"></script>
+<script src="js/shop.js"></script>
+</body></html>
